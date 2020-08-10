@@ -2,6 +2,7 @@ import React from 'react';
 import t from 'prop-types';
 
 import { AlertProps, KindMap } from './interface';
+import { Card, Input, Button, Container, Grid, Paper, Box } from "@material-ui/core";
 
 const prefixCls = 'nx-alert';
 
@@ -13,7 +14,7 @@ const kinds: KindMap = {
 };
 
 const Alert: React.FC<AlertProps> = ({ children, kind = 'info', ...rest }) => (
-  <div
+  <Card
     className={prefixCls}
     style={{
       background: kinds[kind],
@@ -21,7 +22,7 @@ const Alert: React.FC<AlertProps> = ({ children, kind = 'info', ...rest }) => (
     {...rest}
   >
     {children}
-  </div>
+  </Card>
 );
 
 Alert.propTypes = {

@@ -2,6 +2,7 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
 import React from 'react';
 import t from 'prop-types';
+import { Card } from "@material-ui/core";
 var prefixCls = 'nx-alert';
 var kinds = {
   info: '#5352ED',
@@ -16,7 +17,7 @@ var Alert = function Alert(_ref) {
       kind = _ref$kind === void 0 ? 'info' : _ref$kind,
       rest = _objectWithoutProperties(_ref, ["children", "kind"]);
 
-  return /*#__PURE__*/React.createElement("div", _extends({
+  return /*#__PURE__*/React.createElement(Card, _extends({
     className: prefixCls,
     style: {
       background: kinds[kind]
