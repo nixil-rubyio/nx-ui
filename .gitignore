@@ -10,6 +10,12 @@
 
 # production
 /build
+/dist
+/lib
+/esm
+/.docz
+/doc-site
+/types
 
 # misc
 .DS_Store
