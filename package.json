@@ -20,8 +20,16 @@
     "gatsby-plugin-less": "^4.0.3",
     "less": "^3.12.2",
     "prettier": "^2.0.5",
+    "prismjs": "^1.21.0",
+    "raw-loader": "^4.0.1",
     "react": "^16.13.1",
+    "react-copy-to-clipboard": "^5.0.2",
     "react-dom": "^16.13.1",
+    "react-feather": "^2.0.8",
+    "react-simple-code-editor": "^0.11.0",
+    "react-tooltip": "^4.2.8",
+    "react-use": "^15.3.3",
+    "styled-components": "^5.1.1",
     "typescript": "^3.9.7"
   },
   "dependencies": {
