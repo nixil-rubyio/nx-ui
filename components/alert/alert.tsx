@@ -3,7 +3,7 @@ import t from 'prop-types';
 
 import { AlertProps, KindMap } from './interface';
 
-const prefixCls = 'happy-alert';
+const prefixCls = 'nx-alert';
 
 const kinds: KindMap = {
   info: '#5352ED',

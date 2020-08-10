@@ -2,7 +2,7 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
 import React from 'react';
 import t from 'prop-types';
-var prefixCls = 'happy-alert';
+var prefixCls = 'nx-alert';
 var kinds = {
   info: '#5352ED',
   positive: '#2ED573',
