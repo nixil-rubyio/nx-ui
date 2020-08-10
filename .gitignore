@@ -11,8 +11,8 @@
 # production
 /build
 /dist
-/lib
-/esm
+# /lib
+# /esm
 /.docz
 /doc-site
 /types
