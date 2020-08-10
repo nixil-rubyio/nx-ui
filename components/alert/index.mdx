@@ -4,22 +4,24 @@ route: /Alert
 menu: 组件
 ---
 
-import { Playground } from 'docz'; import Alert from './alert'; // 引入组件 import './style'; // 引入组件样式
+import { HappyBox } from '../../doc-comps';
+import BasicDemo from './demo/1-demo-basic';
+import BasicDemoCode from '!raw-loader!./demo/1-demo-basic.tsx';
 
-# Alert 警告提示
+## Alert 警告提示
 
 警告提示，展现需要关注的信息。
 
-## 代码演示
+### 代码演示
 
-### 基本用法
+#### 基本用法
 
-<Playground>
-  <Alert kind="warning"> A simple Alert Example</Alert>
-</Playground>
+<HappyBox code={BasicDemoCode} title="基本用法" desc="使用kind控制Alert类型">
+  <BasicDemo />
+</HappyBox>
 
-## API
+### API
 
-| Props | Description |  Type | Defaults |
-| ---- | --------     | -------------------------------------------- | ------ |
-| kind | Alert type | 'info'/'positive'/'negative'/'warning'非必填 | 'info' |
+| 属性 | 说明     | 类型                                         | 默认值 |
+| ---- | -------- | -------------------------------------------- | ------ |
+| kind | 警告类型 | 'info'/'positive'/'negative'/'warning'非必填 | 'info' |
