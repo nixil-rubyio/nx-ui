@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "dev": "docz dev",
     "start": "npm run dev",
     "build:doc": "rimraf doc-site && docz build",
+    "build:types": "tsc -p tsconfig.build.json && cpr lib esm",
     "preview:doc": "docz serve"
   },
   "keywords": [],
